@@ -1,12 +1,12 @@
-function displayData(data){
+function displaydata(data){
     result.value+=data
 }
-function allClear(){
+function allclear(){
     result.value=""
 }
-function findOut(){
+function find(){
     result.value=eval(result.value)
 }
-function backSpace(){
+function backspace(){
     result.value=result.value.slice(0,-1)
 }
